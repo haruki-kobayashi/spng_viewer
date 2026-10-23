@@ -1,0 +1,48 @@
+# Python / environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# Generated output and locally installed build/runtime packages
+/build/
+/dist/
+/portable*/
+/build_tools/
+/runtime/
+/cache/
+/exports/
+/THIRD_PARTY_LICENSES/
+/tests/_generated/
+*.spec
+*.log
+*.egg-info/
+# Acquisition data / analysis products must never enter Git
+*.spng
+*.fv??
+*.bv??
+*.dat
+*.npy
+*.npz
+*.tif
+*.tiff
+*.bmp
+*.pdf
+*.mp4
+*.exe
+*.dll
+*.zip
+# Local credentials and workstation files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.lnk
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
