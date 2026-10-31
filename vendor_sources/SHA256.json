@@ -1,0 +1,20 @@
+[
+  {
+    "file": "qtbase-everywhere-src-6.11.2.tar.xz",
+    "bytes": 50582668,
+    "sha256": "5b2e00eccaf5a4d8c14134ffa0ea8dfd0a35ae1ffc7f8d87fa4305a1ed23cf22",
+    "url": "https://download.qt.io/archive/qt/6.11/6.11.2/submodules/qtbase-everywhere-src-6.11.2.tar.xz"
+  },
+  {
+    "file": "opencv-5.0.0.zip",
+    "bytes": 85918837,
+    "sha256": "e2abaa1ea2443fb163299369506521518ee02d8e51b88a144a128c4e492123bd",
+    "url": "https://github.com/opencv/opencv/archive/refs/tags/5.0.0.zip"
+  },
+  {
+    "file": "73bc67cd5e4c8da706fa88fe84630231-ippicv_2026.0.0_win_intel64_20260327_general.zip",
+    "bytes": 26382666,
+    "sha256": "cf1560b05cc67795852d4ec32ce58ceee466a8d996404af27dfaaea5f1da2760",
+    "url": "https://raw.githubusercontent.com/opencv/opencv_3rdparty/406d398c436d0465c8e53dd432d9ecd9301d5f4a/ippicv/ippicv_2026.0.0_win_intel64_20260327_general.zip"
+  }
+]

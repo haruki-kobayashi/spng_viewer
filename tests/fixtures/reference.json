@@ -1,0 +1,3021 @@
+{
+  "filters": [
+    {
+      "config": {
+        "scale": 1.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 15,
+        "cutoff": 0.1,
+        "z_filter": true,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_00_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_00_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_00_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_00_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_00_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_00_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_00_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_00_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_00_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_00_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_00_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_00_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_00_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_00_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_00_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_00_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_00_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_00_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_00_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_00_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_00_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_00_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_00_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_00_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_00_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_00_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_00_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_00_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_00_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_00_4_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.4142,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 15,
+        "cutoff": 0.1,
+        "z_filter": true,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_01_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_01_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_01_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_01_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_01_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_01_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_01_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_01_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_01_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_01_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_01_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_01_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_01_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_01_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_01_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_01_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_01_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_01_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_01_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_01_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_01_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_01_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_01_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_01_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_01_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_01_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_01_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_01_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_01_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_01_4_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 0.75,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 15,
+        "cutoff": 0.1,
+        "z_filter": true,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_02_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_02_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_02_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_02_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_02_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_02_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_02_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_02_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_02_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_02_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_02_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_02_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_02_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_02_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_02_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_02_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_02_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_02_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_02_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_02_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_02_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_02_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_02_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_02_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_02_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_02_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_02_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_02_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_02_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_02_4_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 2.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 15,
+        "cutoff": 0.1,
+        "z_filter": true,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_03_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_03_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_03_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_03_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_03_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_03_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_03_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_03_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_03_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_03_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_03_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_03_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_03_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_03_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_03_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_03_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_03_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_03_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_03_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_03_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_03_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_03_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_03_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_03_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_03_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_03_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_03_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_03_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_03_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_03_4_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.4142,
+        "interpolation": "CPU cubic",
+        "highpass": true,
+        "taps": 15,
+        "cutoff": 0.1,
+        "z_filter": true,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_04_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_04_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_04_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_04_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_04_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_04_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_04_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_04_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_04_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_04_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_04_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_04_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_04_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_04_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_04_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_04_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_04_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_04_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_04_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_04_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_04_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_04_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_04_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_04_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_04_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_04_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_04_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_04_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_04_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_04_4_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": false,
+        "taps": 15,
+        "cutoff": 0.1,
+        "z_filter": true,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_05_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_05_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_05_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_05_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_05_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_05_0_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_05_1_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_05_1_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_05_1_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_05_1_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_05_1_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_05_1_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_05_2_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_05_2_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_05_2_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_05_2_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_05_2_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_05_2_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_05_3_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_05_3_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_05_3_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_05_3_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_05_3_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_05_3_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 15,
+        "cutoff": 0.1,
+        "z_filter": false,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_06_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_06_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_06_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_06_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_06_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_06_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_06_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_06_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_06_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_06_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_06_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_06_1_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_06_2_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_06_2_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_06_2_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_06_2_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_06_2_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_06_2_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_06_3_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_06_3_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_06_3_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_06_3_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_06_3_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_06_3_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 15,
+        "cutoff": 0.1,
+        "z_filter": true,
+        "z_weight": -0.2,
+        "z_step": 2,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_07_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_07_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_07_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_07_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_07_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_07_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_07_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_07_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_07_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_07_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_07_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_07_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_07_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_07_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_07_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_07_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_07_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_07_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_07_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_07_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_07_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_07_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_07_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_07_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_07_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_07_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_07_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_07_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_07_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_07_4_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 15,
+        "cutoff": 0.1,
+        "z_filter": true,
+        "z_weight": 0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_08_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_08_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_08_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_08_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_08_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_08_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_08_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_08_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_08_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_08_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_08_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_08_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_08_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_08_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_08_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_08_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_08_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_08_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_08_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_08_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_08_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_08_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_08_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_08_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_08_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_08_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_08_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_08_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_08_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_08_4_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 15,
+        "cutoff": 0.1,
+        "z_filter": true,
+        "z_weight": -0.5,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_09_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_09_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_09_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_09_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_09_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_09_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_09_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_09_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_09_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_09_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_09_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_09_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_09_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_09_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_09_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_09_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_09_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_09_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_09_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_09_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_09_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_09_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_09_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_09_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_09_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_09_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_09_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_09_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_09_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_09_4_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 15,
+        "cutoff": 0.1,
+        "z_filter": true,
+        "z_weight": -0.24,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_10_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_10_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_10_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_10_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_10_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_10_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_10_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_10_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_10_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_10_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_10_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_10_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_10_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_10_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_10_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_10_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_10_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_10_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_10_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_10_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_10_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_10_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_10_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_10_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_10_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_10_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_10_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_10_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_10_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_10_4_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 15,
+        "cutoff": 0.06,
+        "z_filter": true,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_11_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_11_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_11_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_11_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_11_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_11_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_11_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_11_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_11_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_11_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_11_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_11_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_11_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_11_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_11_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_11_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_11_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_11_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_11_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_11_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_11_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_11_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_11_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_11_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_11_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_11_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_11_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_11_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_11_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_11_4_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 15,
+        "cutoff": 0.14,
+        "z_filter": true,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_12_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_12_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_12_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_12_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_12_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_12_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_12_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_12_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_12_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_12_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_12_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_12_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_12_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_12_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_12_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_12_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_12_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_12_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_12_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_12_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_12_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_12_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_12_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_12_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_12_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_12_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_12_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_12_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_12_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_12_4_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 3,
+        "cutoff": 0.1,
+        "z_filter": true,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_13_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_13_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_13_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_13_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_13_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_13_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_13_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_13_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_13_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_13_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_13_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_13_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_13_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_13_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_13_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_13_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_13_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_13_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_13_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_13_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_13_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_13_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_13_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_13_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_13_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_13_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_13_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_13_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_13_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_13_4_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 31,
+        "cutoff": 0.1,
+        "z_filter": true,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_14_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_14_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_14_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_14_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_14_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_14_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_14_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_14_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_14_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_14_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_14_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_14_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_14_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_14_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_14_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_14_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_14_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_14_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_14_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_14_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_14_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_14_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_14_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_14_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_14_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_14_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_14_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_14_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_14_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_14_4_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 15,
+        "cutoff": 0.1,
+        "z_filter": true,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": false,
+        "threshold": 9.0,
+        "dilation": 1
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_15_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_15_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_15_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_15_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_15_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_15_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_15_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_15_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_15_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_15_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_15_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_15_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_15_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_15_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_15_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_15_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_15_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_15_2_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 1.0,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": false,
+        "taps": 15,
+        "cutoff": 0.1,
+        "z_filter": false,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 127.5,
+        "dilation": 4
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_16_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_16_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_16_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_16_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_16_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_16_0_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_16_1_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_16_1_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_16_1_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_16_1_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_16_1_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_16_1_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_16_2_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_16_2_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_16_2_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_16_2_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_16_2_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_16_2_6.png"
+        }
+      ]
+    },
+    {
+      "config": {
+        "scale": 0.25,
+        "interpolation": "GPU形式 A=-0.5",
+        "highpass": true,
+        "taps": 101,
+        "cutoff": 0.499,
+        "z_filter": true,
+        "z_weight": -0.2,
+        "z_step": 1,
+        "binary": true,
+        "threshold": 9.0,
+        "dilation": 2
+      },
+      "stack": "Raw_0_00000000_0_007.spng",
+      "expected": [
+        {
+          "stage": "補間後",
+          "index": 0,
+          "file": "filter_17_0_0.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 1,
+          "file": "filter_17_0_1.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 2,
+          "file": "filter_17_0_2.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 4,
+          "file": "filter_17_0_4.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 5,
+          "file": "filter_17_0_5.png"
+        },
+        {
+          "stage": "補間後",
+          "index": 6,
+          "file": "filter_17_0_6.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 0,
+          "file": "filter_17_1_0.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 1,
+          "file": "filter_17_1_1.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 2,
+          "file": "filter_17_1_2.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 4,
+          "file": "filter_17_1_4.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 5,
+          "file": "filter_17_1_5.png"
+        },
+        {
+          "stage": "2D filter後",
+          "index": 6,
+          "file": "filter_17_1_6.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 0,
+          "file": "filter_17_2_0.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 1,
+          "file": "filter_17_2_1.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 2,
+          "file": "filter_17_2_2.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 4,
+          "file": "filter_17_2_4.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 5,
+          "file": "filter_17_2_5.png"
+        },
+        {
+          "stage": "Z filter後",
+          "index": 6,
+          "file": "filter_17_2_6.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 0,
+          "file": "filter_17_3_0.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 1,
+          "file": "filter_17_3_1.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 2,
+          "file": "filter_17_3_2.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 4,
+          "file": "filter_17_3_4.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 5,
+          "file": "filter_17_3_5.png"
+        },
+        {
+          "stage": "二値化後",
+          "index": 6,
+          "file": "filter_17_3_6.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 0,
+          "file": "filter_17_4_0.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 1,
+          "file": "filter_17_4_1.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 2,
+          "file": "filter_17_4_2.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 4,
+          "file": "filter_17_4_4.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 5,
+          "file": "filter_17_4_5.png"
+        },
+        {
+          "stage": "膨張後",
+          "index": 6,
+          "file": "filter_17_4_6.png"
+        }
+      ]
+    }
+  ],
+  "display": [
+    {
+      "stack": "types.spng",
+      "index": 0,
+      "low": 0,
+      "high": 255,
+      "invert": false,
+      "expected": "display_0_0.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 0,
+      "low": 10,
+      "high": 200,
+      "invert": true,
+      "expected": "display_0_1.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 0,
+      "low": 0,
+      "high": 65535,
+      "invert": false,
+      "expected": "display_0_2.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 1,
+      "low": 0,
+      "high": 255,
+      "invert": false,
+      "expected": "display_1_3.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 1,
+      "low": 10,
+      "high": 200,
+      "invert": true,
+      "expected": "display_1_4.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 1,
+      "low": 0,
+      "high": 255,
+      "invert": false,
+      "expected": "display_1_5.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 2,
+      "low": 0,
+      "high": 255,
+      "invert": false,
+      "expected": "display_2_6.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 2,
+      "low": 10,
+      "high": 200,
+      "invert": true,
+      "expected": "display_2_7.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 2,
+      "low": 0,
+      "high": 255,
+      "invert": false,
+      "expected": "display_2_8.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 3,
+      "low": 0,
+      "high": 255,
+      "invert": false,
+      "expected": "display_3_9.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 3,
+      "low": 10,
+      "high": 200,
+      "invert": true,
+      "expected": "display_3_10.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 3,
+      "low": 0,
+      "high": 255,
+      "invert": false,
+      "expected": "display_3_11.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 4,
+      "low": 0,
+      "high": 255,
+      "invert": false,
+      "expected": "display_4_12.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 4,
+      "low": 10,
+      "high": 200,
+      "invert": true,
+      "expected": "display_4_13.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 4,
+      "low": 0,
+      "high": 255,
+      "invert": false,
+      "expected": "display_4_14.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 5,
+      "low": 0,
+      "high": 255,
+      "invert": false,
+      "expected": "display_5_15.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 5,
+      "low": 10,
+      "high": 200,
+      "invert": true,
+      "expected": "display_5_16.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 5,
+      "low": 0,
+      "high": 1,
+      "invert": false,
+      "expected": "display_5_17.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 6,
+      "low": 0,
+      "high": 255,
+      "invert": false,
+      "expected": "display_6_18.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 6,
+      "low": 10,
+      "high": 200,
+      "invert": true,
+      "expected": "display_6_19.png"
+    },
+    {
+      "stack": "types.spng",
+      "index": 6,
+      "low": 0,
+      "high": 1,
+      "invert": false,
+      "expected": "display_6_20.png"
+    }
+  ],
+  "modes_stack": "types.spng",
+  "normal_stack": "Raw_0_00000000_0_007.spng",
+  "mode_count": 8
+}

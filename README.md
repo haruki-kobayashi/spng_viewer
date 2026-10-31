@@ -1,85 +1,51 @@
 # SPNG Viewer
 
-SPNG形式の断層画像を表示・切り出し・重ね合わせ・画像処理できるPython / PySide6製ビューアです。Windows x64を対象とし、システム標準フォントを使用します。
+SPNG形式の断層画像を表示・切り出し・重ね合わせ・画像処理できるWindows x64用ビューアです。Qtによる画面とシステム標準フォントを使用します。
+
+`out/app/SPNGViewer.exe`を直接起動してください。このフォルダは[ビルド手順](BUILDING.md)の出力先です。配布されたexeは任意のフォルダから起動できます。追加ライブラリのインストールは不要です。実行に必要なアプリのファイルはexeだけです。
 
 ## 主な機能
 
-- SPNG単体、IMAGE / DATAフォルダからのセンサー・Layer・View切り替え
-- 左下原点のpixel座標とカーソル位置・画素値の表示
-- 左ドラッグで移動、Ctrl＋左ドラッグで矩形選択、ホイールで層送り、Ctrl＋ホイールで拡大縮小
-- 表示層・選択範囲・指定した複数層のPNG保存（保存対象の画素値を保持）
-- 自動層送り、ループ再生、異なる層の2点を結ぶ経路への表示追従
-- 最大値／最小値の重ね合わせと、極値を与えた層番号による色分け
-- カラーバー付き選択：kingfisher / meadow / ember / heat / rainbow
-- 全層への画素補間・2D filter・Z filter・二値化・膨張と、中間段階の表示・保存
-- Z filterの前後1層／前後2層（1層飛ばし）参照
-- スキャン設定JSONの自動検出とLayer別の画像処理初期値の読み込み
+- 単一SPNG、IMAGE / DATAからのセンサー・Layer・画像種別・View切り替え
+- 左下原点のpixel座標とカーソル画素値、移動・ズーム・矩形選択
+- 表示層・選択範囲・指定した複数層のPNG保存
+- 層送りの自動再生・ループと、異なる層の2点を結ぶ位置への表示追従
+- 最大／最小値合成、極値を与えた層番号による色分け、5種類のパレット
+- 全層への補間・2D filter・Z filter・二値化・膨張と中間画像の表示・保存
+- 前後1層／前後2層のZ filter、Layer別スキャン設定の自動読み込み
 
-画像・研究データはこのリポジトリに含みません。テストはすべて人工的に生成する小さな画像を使います。
+[利用ガイド（全機能・操作手順）](docs/usage_ja.md)、[スキャン設定](docs/scan_parameters_ja.md)、[SPNG形式](docs/spng_format.md)、[パレット](docs/palettes_ja.md)
 
-## Windows exeから起動
+## ファイルの扱い
 
-配布物の`SPNGViewer.exe`を直接起動します。Pythonのインストールや起動用スクリプトは不要です。フォルダ配布形式では、exeと`_internal`フォルダを同じ場所に置いてください。
+入力SPNGは読み取り専用で開きます。PNG保存には枠や表示濃淡を含めず、選んだ処理段階の画素値を保存します。
 
-## ソースから起動
+アプリのローカルコピー、起動時のライブラリ展開、永続キャッシュは作成しません。全層処理や先読みは、メモリ使用量を抑えるためOSの一時領域を使います。この領域はWindowsのdelete-on-closeで管理され、正常終了とプロセス強制終了の両方で削除されます。
 
-Windows / Python 3.13で動作確認しています。
+## 起動引数
 
-~~~powershell
-py -3.13 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements-tested.txt
-.\.venv\Scripts\python.exe spng_viewer.py
-~~~
+```powershell
+.\out\app\SPNGViewer.exe "C:\scan\0000\IMAGE"
+.\out\app\SPNGViewer.exe "C:\scan\0000\IMAGE\00_00\Raw_0_00000000_0_032.spng"
+.\out\app\SPNGViewer.exe --licenses
+```
 
-ファイルやフォルダを引数にすることもできます。
+合成画像による診断も実行できます。出力先には**存在しない新しいJSON**を指定します。既存ファイルは上書きしません。
 
-~~~powershell
-.\.venv\Scripts\python.exe spng_viewer.py "C:\scan\0000\IMAGE"
-~~~
+```powershell
+.\out\app\SPNGViewer.exe --self-test "C:\work\viewer-test\result.json"
+```
 
-互換バージョンの依存関係を使う場合はrequirements.txtを使用してください。検証した版を再現する場合はrequirements-tested.txtを使います。
+## 動作環境と処理範囲
 
-## 操作
+Windows 10 / 11 x64向けです。検証はWindows 11 x64で実施しています。Windows標準DLLは使用します。GPUは不要です。
 
-[詳しい操作説明](docs/usage_ja.md)をご覧ください。
+画像処理は可視化・調査用です。affine、dead pixel補正、走査マスクには対応しません。GPU形式補間もCPUによる模擬処理です。16bitカラー画像は画素値の損失を避けるためエラーにします。
 
-座標は左下原点、0始まりのpixel単位です。層番号も0始まりです。PNG保存には、表示の反転・濃淡変更や選択枠は含まれません。二値画像は0/1のまま保存します。
+ネットワーク上から直接実行できます。起動時間は回線、ファイルサーバー、Windowsのキャッシュやセキュリティ検査によって変化します。[検証記録](VERIFICATION.md)
 
-画像処理は全層を一度計算して一時キャッシュへ保存します。設定変更後は「全層へ適用」を押してください。キャッシュは通常終了・解放時に削除します。
+## ソース・ライセンス
 
-## テスト
+アプリとパレットは[MIT](LICENSE)です。**Qt 6.11.2をLGPL v3で使用しています。** OpenCV等を含む[第三者ライセンス](THIRD_PARTY_NOTICES.txt)も適用されます。
 
-~~~powershell
-.\.venv\Scripts\python.exe -B -m unittest discover -s tests
-.\.venv\Scripts\python.exe -B spng_viewer.py --self-test build/smoke/result.json
-~~~
-
-テスト画像・結果はtests/_generated/または指定した診断用フォルダに作成します。実際のスキャンデータを使う必要はありません。
-
-GitHub ActionsにはWindows上の自動テストと、手動起動するWindows exeビルドを用意しています。
-
-## Windows exeを作る
-
-~~~powershell
-.\.venv\Scripts\python.exe -m pip install -r requirements-build-tested.txt
-.\.venv\Scripts\python.exe -B build_exe.py --onefile
-.\.venv\Scripts\python.exe -B scripts/check_packaged_exe.py
-~~~
-
-成功するとdist/SPNGViewer.exeが生成されます。exeにはPython・Qt等の実行に必要なライブラリが含まれるため、配布先にPythonをインストールする必要はありません。
-
-生成物はGitへ登録せず、配布時はGitHub Releases等の添付ファイルとして扱ってください。[ビルド・公開手順](docs/development_ja.md)
-
-## 画像処理の適用範囲
-
-この処理は可視化・調査用です。撮像装置が行う全処理を再現するものではありません。affine、dead pixel補正、走査マスク等は実装していません。GPU形式の補間もCPU上での模擬処理です。
-
-IMAGE / DATAと同じ階層の`PARAMS/CombinedParam.json`を自動検出し、画像ファイルのLayerに対応する初期値を読み込めます。二値化閾値には`ThrBinary + ThrBinaryPlus`を使用します。[設定ファイルの読み込み](docs/scan_parameters_ja.md)を参照してください。
-
-[SPNGの読み取り仕様](docs/spng_format.md)
-
-## ライセンス
-
-アプリの実装とパレットは[MITライセンス](LICENSE)で提供します。[パレットの配色と設計](docs/palettes_ja.md)も参照してください。
-
-依存ライブラリにはそれぞれのライセンスが適用されます。詳細は[第三者ライセンスと出典](THIRD_PARTY_NOTICES.md)を参照してください。
+配布用フォルダは`package_release.ps1`で作成できます（[手順](BUILDING.md#配布用フォルダの作成)）。配布には`SPNGViewer-source-and-dependencies.zip`を添付してください。Qtの対応ソース、アプリの全ソース、依存ソース、ライセンス、[再ビルド・再リンク手順](BUILDING.md)を含みます。

@@ -39,4 +39,4 @@ kingfisher / meadow / ember / heatは、8bitの256色がすべて異なり、sRG
 
 ## ライセンス
 
-パレットの生成コードと配色は[MITライセンス](../LICENSE)で提供します。アプリの依存ライブラリのライセンスは[第三者ライセンス](../THIRD_PARTY_NOTICES.md)を参照してください。
+パレットの生成コードと配色は[MITライセンス](../LICENSE)で提供します。アプリの依存ライブラリのライセンスは[第三者ライセンス](../THIRD_PARTY_NOTICES.txt)を参照してください。

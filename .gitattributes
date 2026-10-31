@@ -1,10 +1,12 @@
 * text=auto eol=lf
-*.py text eol=lf
+*.cpp text eol=lf
+*.h text eol=lf
 *.md text eol=lf
 *.txt text eol=lf
-*.yml text eol=lf
-*.cmd text eol=crlf
+*.ps1 text eol=crlf
 *.png binary
-
-# Keep upstream license text intact, including original whitespace.
+*.spng binary
+*.zip binary
+*.xz binary
+# Preserve upstream license whitespace.
 licenses/** -whitespace

@@ -1,27 +1,28 @@
-# Python / environments
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-env/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-# Generated output and locally installed build/runtime packages
+# Build and runtime output
+/out/
 /build/
 /dist/
-/portable*/
-/build_tools/
-/runtime/
 /cache/
 /exports/
-/THIRD_PARTY_LICENSES/
-/tests/_generated/
-*.spec
+/tests/run_*/
+/tests/gui_*/
+/evidence/*
+!/evidence/expected_*.png
 *.log
-*.egg-info/
-# Acquisition data / analysis products must never enter Git
+*.partial
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.lib
+*.zip
+*.xz
+# Acquisition data; only synthetic test fixtures are versioned
 *.spng
+!/tests/fixtures/**/*.spng
+/tests/performance/
+!/tests/screen_fixture/Raw_0_00000000_0_005.spng
 *.fv??
 *.bv??
 *.dat
@@ -32,13 +33,9 @@ env/
 *.bmp
 *.pdf
 *.mp4
-*.exe
-*.dll
-*.zip
-# Local credentials and workstation files
+# Local settings and credentials
 .env
 .env.*
-!.env.example
 *.pem
 *.key
 *.lnk

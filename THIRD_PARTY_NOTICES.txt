@@ -1,0 +1,22 @@
+SPNG Viewer — third-party notices
+
+SPNG Viewer application code and its color palettes are provided under MIT.
+The application includes Qt 6.11.2 (Qt Core, Gui, Widgets, Concurrent and static
+Windows/image-format plugins), used under the GNU Lesser General Public License
+version 3. Qt copyright belongs to The Qt Company Ltd. and other contributors.
+The GNU GPL v3 and GNU LGPL v3 texts are included below and in licenses/Qt/.
+
+The source distribution supplies the complete, unmodified Qt Base 6.11.2 source,
+application source, generated UI/palette sources, and build instructions. You may
+modify or replace Qt, rebuild/relink the application, and run the resulting exe.
+No signing key, activation service, or technical restriction prevents this.
+
+OpenCV 5.0.0 is provided under Apache License 2.0. Intel IPP / IPP IW and other
+bundled components have their own terms, included in licenses/OpenCV-components.
+Qt's component notices and attribution metadata are supplied in licenses/.
+The complete Qt Base SBOM also describes build tools and optional components;
+its entries do not imply that every component is linked into this executable.
+
+Corresponding source is in SPNGViewer-source-and-dependencies.zip. Distribute
+that archive alongside the executable package and retain these notices.
+Build and relink instructions are in source/BUILDING.md.
